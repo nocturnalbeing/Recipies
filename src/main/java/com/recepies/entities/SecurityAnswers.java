@@ -13,7 +13,8 @@ public class SecurityAnswers {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long aId;
-	private Foodie foodieId;
+	private Long foodieId;
+	private Long SecurityQuestionId;
 	private String answer;
 	
 

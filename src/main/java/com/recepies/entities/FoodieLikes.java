@@ -13,6 +13,7 @@ public class FoodieLikes {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long likeId;
-	private Dish dish;
-	private Foodie likedFoodie;
+	
+	private Long dish;
+	private Long likedFoodie;
 }
